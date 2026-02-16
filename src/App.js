@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          {/* Na v6/v7, usamos a prop 'element' e passamos o componente como JSX */}
           <Route path="/" element={<Login />} />
         </Routes>
       </Router>
