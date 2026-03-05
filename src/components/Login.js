@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const Login = (props) => {
   return (
     <Container>
@@ -28,7 +29,7 @@ const Container = styled.section`
 `;
 
 const Content = styled.div`
-  margin-bottom: 10vh;
+  margin-bottom: 10vw;
   width: 100%;
   position: relative;
   min-height: 100vh;
@@ -55,8 +56,8 @@ const BgImage = styled.div`
 `;
 
 const CTA = styled.div`
-  width: 100%;
   max-width: 650px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 `;
@@ -95,10 +96,11 @@ const Description = styled.p`
 `;
 
 const CTALogoTwo = styled.img`
-max-width:600px ;
-margin-bottom:20px;
-display:inline-block;
-vertical-align:bottom;
-width:100%`
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
+`;
 
 export default Login;
