@@ -67,6 +67,28 @@ const Carousel = styled(Slider)`
     color: white;
   }
 
+  .slick-dots {
+    bottom: -30px;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    display: block;
+    text-align: center;
+
+    li {
+      margin: 0 5px;
+
+      button:before {
+        font-size: 10px;
+        color: rgb(150, 158, 171);
+      }
+    }
+
+    li.slick-active button:before {
+      color: white;
+    }
+  }
+
   .slick-list {
     overflow: initial;
   }
