@@ -17,23 +17,23 @@ const Home = (props) => {
   let recommends = [];
   let newDisneys = [];
   let originals = [];
-  let trendind = [];
+  let trending = [];
 
   useEffect(() => {
     db.collection("movies").onSnapshot((snapshot) => {
       snapshot.docs.map((doc) => {
         switch (doc.data().type) {
           case "recommend":
-            recommends.push({ id: doc.id, ...doc.data() });
+            recommends = { id: doc.id, ...doc.data() };
             break;
           case "new":
-            newDisneys.push({ id: doc.id, ...doc.data() });
+            newDisneys = { id: doc.id, ...doc.data() };
             break;
           case "original":
-            originals.push({ id: doc.id, ...doc.data() });
+            originals = { id: doc.id, ...doc.data() };
             break;
           case "trending":
-            Trending.push({ id: doc.id, ...doc.data() });
+            trending = { id: doc.id, ...doc.data() };
             break;
         }
       });
