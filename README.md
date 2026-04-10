@@ -12,15 +12,18 @@ Este é um projeto de estudo que replica a interface e as principais funcionalid
   <img src="https://github.com/user-attachments/assets/a00fc61a-a702-4c51-85ff-58c2b51361f2" width="45%" />
   <img src="https://github.com/user-attachments/assets/52ab97fe-c587-45c2-9a80-d1e219b8817c" width="45%" />
   <img src="https://github.com/user-attachments/assets/1f8a9e1d-5047-4f7e-b602-ec29fc70b13e" width="45%" />
-
-
-
 </p>
+
+
 
 ### 🎥 Vídeo de Demonstração
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/acd32ba3-2e24-45ee-98ac-821b06ada310" width="100%" />
+  <video src="https://github.com/user-attachments/assets/9d18f8ce-62f6-49e6-92f4-6f76e30ace68" width="100%" controls>
+    Seu navegador não suporta a reprodução de vídeos.
+  </video>
 </p>
+
+
 
 ---
 
@@ -85,7 +88,7 @@ O projeto foi construído utilizando as melhores práticas e ferramentas moderna
 Desenvolvido por **Wemerson Fernandes Rangel**.
 Entre em contato comigo:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/SEU_LINKEDIN_AQUI](https://www.linkedin.com/in/wemersonfernandes/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wemersonfernandes/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wemerson0014)
 
 ---
